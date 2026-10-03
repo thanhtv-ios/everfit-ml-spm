@@ -1,0 +1,45 @@
+LICENSE
+  s_257494b2e7c4d1::t_4c674c2ebe65ac 1-251
+Package.swift
+  s_257494b2e7c4d1::t_4390dee29b7ab1 1-68
+README.md
+  s_257494b2e7c4d1::t_644e8e58c5dc8b 1-28
+Sources/MediaPipeTasksVisionLinkage/MediaPipeTasksVisionLinkage.swift
+  s_257494b2e7c4d1::t_29f2dd5d9f23d4 1-2
+Sources/TensorFlowLite/Delegate.swift
+  s_257494b2e7c4d1::t_09d765d19917c0 1-24
+Sources/TensorFlowLite/Interpreter.swift
+  s_257494b2e7c4d1::t_a438bfd5055b70 1-423
+Sources/TensorFlowLite/InterpreterError.swift
+  s_257494b2e7c4d1::t_90246fc58c9404 1-65
+Sources/TensorFlowLite/Model.swift
+  s_257494b2e7c4d1::t_6f44a8768b4c63 1-56
+Sources/TensorFlowLite/PrivacyInfo.xcprivacy
+  s_257494b2e7c4d1::t_de660054e981e6 1-14
+Sources/TensorFlowLite/QuantizationParameters.swift
+  s_257494b2e7c4d1::t_f88556828ecbaf 1-35
+Sources/TensorFlowLite/SignatureRunner.swift
+  s_257494b2e7c4d1::t_d24eb68d5fbefb 1-284
+Sources/TensorFlowLite/SignatureRunnerError.swift
+  s_257494b2e7c4d1::t_d4278e2351c642 1-59
+Sources/TensorFlowLite/Tensor.swift
+  s_257494b2e7c4d1::t_8e3d3522586647 1-156
+Sources/TensorFlowLite/TensorFlowLite.swift
+  s_257494b2e7c4d1::t_ea95a378b661a5 1-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "8fe3c4347d70b94c4f20806cca2e298eb3e39320",
+  "prompts": {},
+  "sessions": {
+    "s_257494b2e7c4d1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d75f9409-5a84-410c-807e-106629a148c1",
+        "model": "unknown"
+      },
+      "human_author": "Thanh Tran <thanhtran@everfit.io>"
+    }
+  }
+}

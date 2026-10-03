@@ -1,0 +1,22 @@
+Package.swift
+  s_257494b2e7c4d1::t_edd552eb4337ac 12
+  s_257494b2e7c4d1::t_ace5a26f111f55 32
+README.md
+  s_257494b2e7c4d1::t_4355a9272f805c 13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "aaf46941716adac3f80891fdb04817e841721d30",
+  "prompts": {},
+  "sessions": {
+    "s_257494b2e7c4d1": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d75f9409-5a84-410c-807e-106629a148c1",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Thanh Tran <thanhtran@everfit.io>"
+    }
+  }
+}

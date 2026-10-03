@@ -9,7 +9,7 @@ import PackageDescription
 // MediaPipe's graph registrations live in a static library that must be force-loaded. SPM does not allow
 // linker flags in remote packages, so consumers of MediaPipeTasksVision add:
 //   OTHER_LDFLAGS = $(inherited) -ObjC -force_load "$(BUILT_PRODUCTS_DIR)/libMediaPipeTasksGraph.a"
-let release = "https://github.com/thanhtv-ios/everfit-ml-spm/releases/download/1.0.0"
+let release = "https://github.com/thanhtv-ios/everfit-ml-spm/releases/download/1.0.1"
 
 let package = Package(
     name: "everfit-ml-spm",
@@ -29,7 +29,7 @@ let package = Package(
         .binaryTarget(
             name: "TensorFlowLiteC",
             url: "\(release)/TensorFlowLiteC.xcframework.zip",
-            checksum: "4fbd11264d144f74ea4000b016d5e3290906e0acf1f999195aad725c04aa92eb"
+            checksum: "6137ed092dae2e5ed9c5eef8dbe3f428cdea462be582f2b0f3184d6e03b2cd19"
         ),
         // Carries MediaPipe's system-library requirements (binary targets cannot declare them).
         .target(

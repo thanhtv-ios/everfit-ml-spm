@@ -10,6 +10,7 @@
 ## What was changed
 
 - **Binaries:** not modified, so they are byte-identical to the pod downloads. They are only re-zipped, because SPM cannot download `.tar.gz` archives.
+- **TensorFlowLiteC:** Google ships this binary as a bare Mach-O object (`MH_OBJECT`), not an `ar` archive. Xcode does not recognise that as static, so it embeds the framework into the app and validation fails ("did not contain an Info.plist"). Since 1.0.1, each architecture's object is wrapped in a static `ar` archive. The object bytes are unchanged; the only addition is `ar`'s alignment padding.
 - **Graph libraries:** `libMediaPipeTasksCommon_{device,simulator}_graph.a` are wrapped as `MediaPipeTasksGraph.xcframework`. Both files are renamed to `libMediaPipeTasksGraph.a`; their bytes are unchanged.
 - **`Sources/TensorFlowLite`:** unchanged TensorFlowLiteSwift 2.17.0 sources and privacy manifest.
 
